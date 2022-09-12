@@ -1,0 +1,13 @@
+{
+  "duration": "2",
+  "price": "240",
+  "bookingDateStart": "new Date()",
+  "bookingDateEnd": "new Date()",
+  "firstName": "Narantyo",
+  "lastName": "Maulana",
+  "emailAddress": "narantyomaulana@gmail.com",
+  "phoneNumber": "081393436458",
+  "accountHolder": "Narantyo Maulana",
+  "bankFrom": "BRI",
+  "proofPayment": "FileData()"
+}
