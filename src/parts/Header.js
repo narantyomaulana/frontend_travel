@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
 import { useLocation } from "react-router-dom";
 
 import Button from "elements/Button";
@@ -11,6 +12,7 @@ export default function Header(props) {
     return location.pathname === path ? "active" : "";
   };
   return (
+    <Fade>
     <header className="spacing-sm">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
@@ -42,5 +44,6 @@ export default function Header(props) {
         </nav>
       </div>
     </header>
+    </Fade>
   );
 }
