@@ -106,6 +106,8 @@ export default class BookingForm extends Component {
 
         <Button
           className="btn"
+          href={'/checkout'}
+          type = "link"
           hasShadow
           isPrimary
           isBlock
